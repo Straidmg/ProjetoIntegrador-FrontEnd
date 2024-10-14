@@ -129,4 +129,8 @@
         -->NOTAS SOBRE ESTA EDIÇÃO
         Informações obtidas da apostila desenvolvida pelo IFSC(Instituto Federalde Santa catarina)</p>
         "http://www.palhoca.ifsc.edu.br/materiais" 
+
+        fontes:
+
+        https://palhoca.ifsc.edu.br/materiais/apostila-libras-basico/Apostila_Libras_Basico_IFSC-Palhoca-Bilingue.pdf
     
