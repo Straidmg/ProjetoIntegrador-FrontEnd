@@ -12,7 +12,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     height: 50px;
-    background-color: rgba(100, 100, 100, 0.747);
+    background-color: cyan;
 }
 .menu{
     display: flex;
@@ -55,6 +55,13 @@ nav{
     display:block;
     width:150px;
 }
-input{
-    border-radius: 7px;
+.sociais ul li{
+    float: left;
+    list-style: none;
+    padding: 3px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
 }
