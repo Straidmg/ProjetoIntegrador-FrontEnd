@@ -3,8 +3,17 @@
       display: none;
     }
     .texto{
-      font-size: small;
-      font-weight: bold;
+      font-size: medium;
+      text-align: center;
+      text-align: justify;
+    } 
+    figcaption{
+      font-weight: bolder;
     }
-    
+    .containerCelular{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    position: flex;
+    }
   }
