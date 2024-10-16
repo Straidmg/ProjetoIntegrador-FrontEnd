@@ -65,6 +65,13 @@ nav{
     justify-content: center;
     padding-top: 25px;
 }
+.img2{
+    border-radius: 35px;
+    box-shadow: 10px 10px rgb(71, 71, 71);
+}
+.img1{
+    border-radius: 35px;
+}
 main{
     margin: 20px 150px;
 }
