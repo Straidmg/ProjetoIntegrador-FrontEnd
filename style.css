@@ -2,9 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+/* NAV */
+
+
+
 body{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
+        text-align: center;
     }
 nav{
         display: flex;
@@ -12,6 +18,15 @@ nav{
         justify-content: space-around;
         height: 50px;
         background-color: cyan;
+    }
+
+    .logo{
+        transform: ;
+    }
+
+h2{
+        padding: 15px;
+        font-size: 28px;
     }
 .menu{
         display: flex;
@@ -54,16 +69,33 @@ nav{
         display:block;
         width:150px;
     }
+
+    .sociais{
+        display: flex;
+    }
+
+
 .sociais ul li{
         float: left;
         list-style: none;
         padding: 3px;
     }
+
+.fix{
+    width: 20px;
+    }
+
 .banner{
         display: flex;
         justify-content: center;
         padding-top: 25px;
     }
+
+
+    
+
+/* CONTEUDO */
+
 
 .container{
 flex-direction: column;
@@ -75,30 +107,21 @@ display: flex;
 .container>div{
 width: 1000px;
 }
-#meme{
-padding: 15px;
-font-size: 28px;
 
-}
-.gigi{
-padding: 15px;
-font-size: 28px;
-
-}
-.cat {
-width: 990px;
-height: 550px;
+.foto {
+width: 100%;
+height: 100%;
 padding-left: 10px;
-
-
 }
+
 .texto{
 padding: 25px;
 font-size: 22px;
 text-align: justify;
 line-height: 1.3;
-
+text-align: center;
 }
+
 .listaum{
 font-size: 22px;
 text-align: justify;
@@ -115,10 +138,7 @@ padding-left: 38px;
 .caixa2{
 padding-left: 38px;
 }
-h2{
-padding: 15px;
-font-size: 28px;
-}
+
 .Libras{
 padding: 10px;
 font-size: 22px;
@@ -183,9 +203,7 @@ padding-left: 10px;
 padding-left: 65px;
 
 }
-img{
-border-radius: 15px;
-}
+
 .video{
 padding-left: 25px;
 padding-top: 20px;
