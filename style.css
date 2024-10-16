@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+}
+
+/* TUDO AQUI É DO MENU DE NAVEGAÇÃO */
+
+body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 50px;
+        background-color: cyan;
+    }
+
+h2{
+        padding: 15px;
+        font-size: 28px;
+    }
+
+    .logo{
+        width: 250px;
+    }
+
+
+    .navMenu{
+        display: flex;
+        list-style:none;
+        border:none;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: 600;
+    }
+    .navMenu li{
+        position: relative;
+        float:left;
+    }
+    .navMenu li a{
+        color:#333; 
+        text-decoration:none; 
+        padding:8px 15px; 
+        display:block;
+    }
+    
+    .navMenu li a:hover{
+        background:#333;
+        color:#fff;
+        box-shadow:0 3px 10px 0 #CCC;
+        text-shadow:0px 0px 5px #fff;
+    }
+
+    .navMenu li  ul{
+        position: absolute;
+        top:30px;
+        left:0;
+        background-color:#fff;
+        display:none;
+        }
+
+    .navMenu li:hover ul, .navMenu li.over ul{
+        display:block;
+    }
+    .navMenu li ul li{
+        border:1px solid #c0c0c0;
+        display:block;
+        width:150px;
+    }
+
+    .navSociais{
+        display: flex;
+    }
+
+
+    .navSociais ul li{
+        float: left;
+        list-style: none;
+        padding: 3px;
+    }
+
+    .fix{
+    width: 20px;
+    }
+
+    .banner{
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+
+    
+
+/* TUDO AQUI É DO MENU DE CONTEUDO */
+    .container{
+flex-direction: column;
+align-items: center;
+display: flex;
+position: flex;
+}
+
+
+    .foto {
+height: 100%;
+padding-top: 40px;
+width: 70%;
+}
+
+.fotoEsquerda{
+    
+}
+
+    .texto{
+padding: 25px;
+font-size: 22px;
+text-align: justify;
+line-height: 1.3;
+}
+
+    .lista{
+font-size: 22px;
+text-align: justify;
+line-height: 1.3;
+}
+
+    .Libras{
+padding: 10px;
+font-size: 22px;
+text-align: justify;
+line-height: 1.3;
+padding-left: 10px;
+
+}
+    .smile{
+width: 600px;
+padding-left: 45px;
+
+}
+    .shy{
+padding: 15px;
+font-size: 28px;
+}
+    .fake{
+padding: 10px;
+font-size: 22px;
+text-align: justify;
+line-height: 1.3;
+padding-left: 10px;
+
+}
+    .happy{
+padding: 10px;
+font-size: 22px;
+text-align: justify;
+line-height: 1.3;
+padding-left: 10px;
+
+}
+    .sad{
+padding: 15px;
+font-size: 28px;
+
+}
+    .hola{
+padding: 10px;
+font-size: 22px;
+text-align: justify;
+line-height: 1.3;
+padding-left: 10px;
+
+}
+    .hans{
+padding: 10px;
+font-size: 22px;
+text-align: justify;
+line-height: 1.3;
+padding-left: 10px;
+}
+    .keju{
+padding: 10px;
+font-size: 22px;
+text-align: justify;
+line-height: 1.3;
+padding-left: 10px;
+}
+    .lol{
+padding-left: 65px;
+
+}
+
+    .video{
+padding-left: 25px;
+padding-top: 20px;
+margin: 10px;
+
+}
+    .imagens{
+width: 294px;
+height: 294px;
+margin: 10px;
+}
+    .viver{
+justify-content: center;
+padding-left: 85px;
+}
+
