@@ -1,6 +1,10 @@
 @media (max-width: 768px) {
-    .apagar {
+    .apagarCelular {
       display: none;
     }
-
+    .texto{
+      font-size: small;
+      font-weight: bold;
+    }
+    
   }
