@@ -72,6 +72,11 @@ nav{
 .img1{
     border-radius: 35px;
 }
+.img1:hover{
+    border: 5px solid cyan;
+    height: 240px;
+    width: 340px;
+}
 main{
     margin: 20px 150px;
 }
