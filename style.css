@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(128, 128, 128);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background-image: linear-gradient(cyan,gray);
+}
+.menu{
+    display: flex;
+    list-style:none;
+    border:none;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.menu li{
+    position: relative;
+    float:left;
+}
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:8px 15px; 
+    display:block;
+}
+
+.menu li a:hover{
+    background:#333;
+    color:#fff;
+    box-shadow:0 3px 10px 0 #CCC;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu li  ul{
+    position: absolute;
+    top:30px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+.sociais ul li{
+    float: left;
+    list-style: none;
+    padding: 3px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+main{
+    margin: 20px 150px;
+}
+h1{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+    font-weight: 550;
+}
+.caixas{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.caixa{
+    text-align: center;
+    padding: 10px 20px;
+}
+figcaption{
+    color: black;
+    font-weight: 550;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(gray,cyan);
+    height: 70px;
+    margin-top: 50px;
+}
