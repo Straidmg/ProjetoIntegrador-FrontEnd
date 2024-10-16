@@ -1,6 +1,19 @@
+/* 
+#828489
+#272932
+#d4e4bc
+#4d7ea8
+#ffd972
+*/
+
+
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: #828489;
+    color: #272932;
 }
 .container{
     flex-direction: column;
