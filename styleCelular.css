@@ -20,4 +20,10 @@
       width: 90%;
       padding: 20px;
     }
+    .textoMenor{
+      padding-top: 15px;
+font-size: medium;
+text-align: center;
+text-align: justify;
+    }
   }

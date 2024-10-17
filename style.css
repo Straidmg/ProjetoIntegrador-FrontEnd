@@ -123,6 +123,12 @@ font-size: 22px;
 text-align: justify;
 line-height: 1.3;
 }
+.textoMenor{
+padding-top: 15px;
+font-size: 22px;
+text-align: justify;
+line-height: 1.3;
+}
 
     .lista{
 font-size: 22px;
