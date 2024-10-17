@@ -103,8 +103,6 @@ align-items: center;
 display: flex;
 position: flex;
 }
-
-
     .foto {
 height: 100%;
 padding-top: 40px;
@@ -134,73 +132,8 @@ line-height: 1.3;
 font-size: 22px;
 text-align: justify;
 line-height: 1.3;
-}
-
-    .Libras{
-padding: 10px;
-font-size: 22px;
-text-align: justify;
-line-height: 1.3;
-padding-left: 10px;
-
-}
-    .smile{
-width: 600px;
-padding-left: 45px;
-
-}
-    .shy{
-padding: 15px;
-font-size: 28px;
-}
-    .fake{
-padding: 10px;
-font-size: 22px;
-text-align: justify;
-line-height: 1.3;
-padding-left: 10px;
-
-}
-    .happy{
-padding: 10px;
-font-size: 22px;
-text-align: justify;
-line-height: 1.3;
-padding-left: 10px;
-
-}
-    .sad{
-padding: 15px;
-font-size: 28px;
-
-}
-    .hola{
-padding: 10px;
-font-size: 22px;
-text-align: justify;
-line-height: 1.3;
-padding-left: 10px;
-
-}
-    .hans{
-padding: 10px;
-font-size: 22px;
-text-align: justify;
-line-height: 1.3;
-padding-left: 10px;
-}
-    .keju{
-padding: 10px;
-font-size: 22px;
-text-align: justify;
-line-height: 1.3;
-padding-left: 10px;
-}
-    .lol{
-padding-left: 65px;
-
-}
-
+    }
+    
     .video{
 padding-left: 25px;
 padding-top: 20px;
@@ -216,4 +149,3 @@ margin: 10px;
 justify-content: center;
 padding-left: 85px;
 }
-
