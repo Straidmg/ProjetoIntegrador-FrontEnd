@@ -108,7 +108,8 @@ nav{
 .footer-links
 {
   padding-left:0;
-  list-style:none
+  list-style-type: none;
+  display: inline-block;
 }
 .footer-links li
 {
