@@ -24,7 +24,9 @@ h2{
     }
 
     .logo{
-        width: 250px;
+        width: 200px;
+        object-fit: scale-down;
+        object-position: 100% 100%;
     }
 
 
@@ -148,4 +150,8 @@ margin: 10px;
 
     .containerVideo{
 justify-content: center;
+}
+.centralizarSite{
+    margin-right: 10%; 
+    margin-left: 10%;
 }
