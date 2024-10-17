@@ -16,4 +16,8 @@
     display: flex;
     position: flex;
     }
+    .fotoMenor{
+      width: 90%;
+      padding: 20px;
+    }
   }

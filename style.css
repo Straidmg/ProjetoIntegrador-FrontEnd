@@ -111,8 +111,10 @@ padding-top: 40px;
 width: 70%;
 }
 
-.fotoEsquerda{
-    
+.fotoMenor{
+    float: inline-start;
+    width: 50%;
+    padding: 20px;
 }
 
     .texto{
