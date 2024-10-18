@@ -3,8 +3,6 @@
       display: none;
     }
     .texto{
-      font-size: small;
-      font-weight: bold;
       font-size: medium;
       text-align: center;
       text-align: justify;
@@ -18,5 +16,18 @@
     display: flex;
     position: flex;
     }
-    
+    .fotoMenor{
+      width: 90%;
+      padding: 20px;
+    }
+    .textoLista{
+    padding-top: 15px;
+    font-size: medium;
+    text-align: center;
+    text-align: justify;
+    }
+    .centralizarSite{
+      margin-right: 0%; 
+      margin-left: 0%;
   }
+}
