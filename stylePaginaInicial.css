@@ -293,7 +293,7 @@ a{
 }
 .social-icons a.youtube:hover
 {
-  background-color:#e71a1a
+  background-color:(#e71a1a);
 }
 @media (max-width:767px)
 {
@@ -304,6 +304,13 @@ a{
     font-weight:600
   }
 }
+.SENAC2{
+  margin-bottom: 10px;
+}
+.SENAC{
+  margin-top: 10px;
+}
+
 /*BOTÃO DE VOLTAR AO TOPO*/
 
 .btn {
