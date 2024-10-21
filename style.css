@@ -144,12 +144,23 @@ width: 200px;
 
 }
     .imagens{
-width: 80%;
+width: 75%;
 }
 
-    .containerVideo{
-justify-content: center;
+.containerVideo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+        padding: 10px;
 }
+
+.containerVideo figure{
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 45%;
+}
+
 .centralizarSite{
     margin-right: 10%; 
     margin-left: 10%;
