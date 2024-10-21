@@ -93,11 +93,10 @@ nav{
     justify-content: center;
     padding-top: 25px;
 }
-.img2{
-
-    /*border-radius: 15px;
-box-shadow: 10px 10px 10px rgba(185, 184, 184, 0.452);*/
-}
+/*.img2{
+border-radius: 15px;
+box-shadow: 10px 10px 10px rgba(185, 184, 184, 0.452);
+}*/
 .img1{
     border-radius: 35px;
 }
