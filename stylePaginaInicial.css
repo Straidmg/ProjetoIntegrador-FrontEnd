@@ -215,12 +215,20 @@ a{
 {
   margin:0
 }
+@media (min-width: 1200px) {
+  main{
+      margin: 20px 300px;
+  }
+}
 @media (max-width:991px)
 {
   .site-footer [class^=col-]
   {
     margin-bottom:30px
   }
+  .img2{
+    width: 800px;
+}
 }
 @media (max-width:767px)
 {
@@ -231,6 +239,24 @@ a{
   .site-footer .copyright-text,.site-footer .social-icons
   {
     text-align:center
+  }
+}
+@media (max-width: 480px) {
+  .img2{
+      width: 400px;
+  }
+  main{
+      margin: 20px;
+  }
+  .sociais1{
+      display: none;
+  }
+  .menu li a{
+      font-size: 12px;
+      padding: 5px 8px;
+  }
+  nav{
+      justify-content: center;
   }
 }
 .social-icons
