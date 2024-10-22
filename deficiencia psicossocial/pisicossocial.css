@@ -232,7 +232,7 @@ justify-content: center;
 }
 .copyright-text
 {
-  margin:0
+  margin-bottom: 10px;
 }
 @media (min-width: 1200px) {
   main{
