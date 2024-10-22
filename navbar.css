@@ -4,21 +4,31 @@
 #D4E4BC
 #4D7EA8
 #FFD972 
-*/*{
+*/
+*{
     margin: 0;
     padding: 0;
 }
-body{
+html,body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    background-color: rgba(128, 128, 128, 0.774);
+    font-size: 15px;    
+    text-align: center;
+    background-color: #fff8f8;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+}
+.texto{
+    font-size: 20px;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 50px;
-    background-color: cyan;
+    height: 70px;
+    background-image: linear-gradient(#4d7ea8,#fff8f8);
 }
 .menu{
     display: flex;
@@ -41,9 +51,8 @@ nav{
 }
 
 .menu li a:hover{
-    background:#333;
+    background-color: #333;
     color:#fff;
-    box-shadow:0 3px 10px 0 #CCC;
     text-shadow:0px 0px 5px #fff;
 }
 .menu li  ul{
@@ -66,8 +75,22 @@ nav{
     list-style: none;
     padding: 3px;
 }
-.banner{
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
+.FACEBOOK, .INSTAGRAM, .TWITTER, .YOUTUBE, .TIKTOK{
+  border-radius: 50%;
+}
+
+.FACEBOOK:hover{
+  box-shadow: 0px 0px 8px blue;
+}
+.YOUTUBE:hover{
+  box-shadow: 0px 0px 8px red;
+}
+.TWITTER:hover{
+  box-shadow: 0px 0px 8px white;
+}
+.INSTAGRAM:hover{
+  box-shadow: 0px 0px 8px rgb(183, 0, 255);
+}
+.TIKTOK:hover{
+  box-shadow: 0px 0px 8px rgb(55, 0, 255);
 }
