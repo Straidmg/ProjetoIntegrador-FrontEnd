@@ -240,7 +240,7 @@ a{
     text-align:center
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .img2{
       width: 400px;
   }
