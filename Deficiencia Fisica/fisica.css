@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+}
+
+/* TUDO AQUI É DO MENU DE NAVEGAÇÃO */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;    
+    text-align: center;
+    background-color: #fff8f8;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+}
+.texto{
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background-image: linear-gradient(#4d7ea8,#fff8f8);
+}
+.menu{
+    display: flex;
+    list-style:none;
+    border:none;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.menu li{
+    position: relative;
+    float:left;
+}
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:8px 15px; 
+    display:block;
+}
+
+.menu li a:hover{
+    background-color: #333;
+    color:#fff;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu li  ul{
+    position: absolute;
+    top:30px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+.sociais1 ul li{
+    float: left;
+    list-style: none;
+    padding: 3px;
+}
+.FACEBOOK, .INSTAGRAM, .TWITTER, .YOUTUBE, .TIKTOK{
+  border-radius: 50%;
+}
+
+.FACEBOOK:hover{
+  box-shadow: 0px 0px 8px blue;
+}
+.YOUTUBE:hover{
+  box-shadow: 0px 0px 8px red;
+}
+.TWITTER:hover{
+  box-shadow: 0px 0px 8px white;
+}
+.INSTAGRAM:hover{
+  box-shadow: 0px 0px 8px rgb(183, 0, 255);
+}
+.TIKTOK:hover{
+  box-shadow: 0px 0px 8px rgb(55, 0, 255);
+}
+
+    
+
+/* TUDO AQUI É DO MENU DE CONTEUDO */
+h1{
+    padding-top: 20px;
+    font-size: larger;
+}
+
+    .container{
+flex-direction: column;
+align-items: center;
+display: flex;
+position: flex;
+}
+    .foto {
+height: 100%;
+padding-top: 40px;
+width: 70%;
+}
+
+.fotoMenor{
+    float: left;
+    width: 50%;
+    padding: 20px;
+
+}
+
+    .texto{
+padding: 35px;
+font-size: 18px;
+text-align: justify;
+line-height: 1.3;
+margin-bottom: 15px;
+
+}
+.textoMenor{
+padding-top: 15px;
+font-size: 18px;
+text-align: justify;
+line-height: 1.3;
+}
+
+    .lista{
+font-size: 18px;
+text-align: justify;
+line-height: 1.3;
+margin-top: 25px;
+    }
+
+    .video{
+padding-left: 25px;
+padding-top: 20px;
+margin: 10px;
+
+}
+    .imagens{
+width: 294px;
+height: 294px;
+margin: 10px;
+}
+
+    .containerVideo{
+justify-content: center;
+}
+ .hi{
+    float: left;
+    width: 15%;
+    margin-right: 10px;
+    
+
+}
+.lucas{
+    float: left;
+    width: 15%;
+    margin-right: 20px;
+    
+
+}
+.feo{
+    float: left;
+    width: 15%;
+    margin-right: 20px;
+
+}
+.texto2{
+    padding: 15px;
+    
+}
+.foto2{
+ height: 100%;
+padding-top: 40px;
+width: 40%;
+float: left;
+margin-right: 20px;
+}
+.textoLista{
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    line-height: 1.1;
+    
+}
+.fot{
+    height: 100%;
+    padding-top: 40px;
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+}
+.textofim{
+padding: 10px;
+margin-top: 20px;
+font-size: 18px;
+text-align: justify;
+line-height: 1.1;
+
+
+}
+.relif{
+    margin-top: 20px;
+}
+
+    /*FOOOTER*/
+
+.site-footer
+{
+  background-image: linear-gradient(#fff8f8,#4d7ea8);
+  font-size:15px;
+  line-height:24px;
+  color: #272932;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#272932;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align: center;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (min-width: 1200px) {
+  main{
+      margin: 20px 300px;
+  }
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+  .img2{
+    width: 800px;
+}
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+@media (max-width: 480px) {
+  .img2{
+      width: 400px;
+  }
+  main{
+      margin: 20px;
+  }
+  .sociais1{
+      display: none;
+  }
+  .menu li a{
+      font-size: 12px;
+      padding: 5px 8px;
+  }
+  nav{
+      justify-content: center;
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:white
+}
+.social-icons a.instagram:hover
+{
+  background-image: linear-gradient(#8a3ab9,#4c68d7,#cd486b,#fbad50,#fccc63,#bc2a8d,#e95950);
+}
+.social-icons a.youtube:hover
+{
+  background-color:#c4302b;
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+.SENAC2{
+  margin-bottom: 10px;
+}
+.SENAC{
+  margin-top: 10px;
+}
+
+/*BOTÃO DE VOLTAR AO TOPO*/
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.btn::after {
+  content: "↑";
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff8f8;
+  transition: margin-top 250ms;
+}
+.btn:hover::after {
+  margin-top:-8px;
+}
+
+
